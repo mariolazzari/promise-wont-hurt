@@ -1,0 +1,19 @@
+{
+  "name": "promise-wont-hurt",
+  "version": "1.0.0",
+  "description": "Promise won't hurt node school tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariolazzari/promise-wont-hurt.git"
+  },
+  "author": "Mario Lazzari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariolazzari/promise-wont-hurt/issues"
+  },
+  "homepage": "https://github.com/mariolazzari/promise-wont-hurt#readme"
+}
