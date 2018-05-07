@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mariolazzari/promise-wont-hurt/issues"
   },
-  "homepage": "https://github.com/mariolazzari/promise-wont-hurt#readme"
+  "homepage": "https://github.com/mariolazzari/promise-wont-hurt#readme",
+  "dependencies": {
+    "es6-promise": "^4.2.4"
+  }
 }
