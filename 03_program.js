@@ -8,5 +8,5 @@ var promise = new Promise((fulfill, reject) => {
   function onReject (error) {
     console.log(error.message);
   }
-
+  
 promise.then(null, onReject);
