@@ -1,5 +1,5 @@
 // Challenge 8
-let attachTitle = function(name){
+let attachTitle = function (name) {
     return `DR. ${name}`;
 }
 
@@ -9,4 +9,5 @@ let promise = new Promise((fulfill, reject) => {
 
 promise
     .then(attachTitle)
-    .then(console.log);
+    .then(console.log)
+    .catch(console.log);
