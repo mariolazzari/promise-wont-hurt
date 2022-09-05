@@ -1,9 +1,6 @@
-// Challenge 7
-/* global first, second */
+const firstPromise = first();
 
-var firstPromise = first();
-
-var secondPromise = firstPromise.then(function (val) {
+const secondPromise = firstPromise.then(function (val) {
   return second(val);
 });
 

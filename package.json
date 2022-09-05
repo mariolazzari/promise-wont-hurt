@@ -17,11 +17,8 @@
   },
   "homepage": "https://github.com/mariolazzari/promise-wont-hurt#readme",
   "dependencies": {
-<<<<<<< HEAD
     "es6-promise": "^4.2.4",
-    "q-io": "^1.13.5"
-=======
+    "q-io": "^1.13.5",
     "nodemon": "^1.17.4"
->>>>>>> 2fb06dec176af84a5f79ed29bfc4c79ce49bfb7e
   }
 }

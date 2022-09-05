@@ -1,12 +1,11 @@
-// Challenge 3
-var promise = new Promise((fulfill, reject) => {
+const promise = new Promise((fulfill, reject) => {
   setTimeout(() => {
-    reject(new Error("REJECTED!"))
+    reject(new Error("REJECTED!"));
   }, 300);
 });
 
-function onReject(error) {
+const onReject = error => {
   console.log(error.message);
-}
+};
 
 promise.then(null, onReject);

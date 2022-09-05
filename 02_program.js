@@ -1,10 +1,7 @@
-// Challenge 2
-
-var promise = new Promise((fulfill, reject) => {
-    setTimeout(() => {
-        fulfill('FULFILLED!');
-    }, 300);
+const promise = new Promise((fulfill, reject) => {
+  setTimeout(() => {
+    fulfill("FULFILLED!");
+  }, 300);
 });
 
 promise.then(console.log);
-
